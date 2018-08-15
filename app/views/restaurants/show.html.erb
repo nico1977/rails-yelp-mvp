@@ -1,0 +1,6 @@
+<h1>Restaurant show</h1>
+
+
+<%= @restaurant.name %> <%= @restaurant.address %> <%= @restaurant.phone_number %> <%= @restaurant.category %>
+<%= link_to "add review", new_restaurant_review_path(@restaurant), class: "btn btn-primary"%>
+
